@@ -88,6 +88,7 @@ options.watch = program.watch;
 // left-over args are file paths
 
 var files = program.args;
+files[files.length] = program.path;
 
 // compile files
 
